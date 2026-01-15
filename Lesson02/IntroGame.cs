@@ -28,9 +28,8 @@ public class IntroGame : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         _pixel = new Texture2D(GraphicsDevice, 1, 1);
-        _pixel.SetData(new [] {Color.White})
+        _pixel.SetData(new [] {Color.White});
 
-        // TODO: use this.Content to load your game content here
     }
 
     protected override void Update(GameTime gameTime)
