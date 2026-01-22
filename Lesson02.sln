@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayingContent", "Displa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04DisplayingContent", "Lesson04DisplayingContent\Lesson04DisplayingContent.csproj", "{E07DA6F7-1838-4D17-9FDF-823A6CF5D259}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05Input", "Lesson05Input\Lesson05Input.csproj", "{05A41112-13AF-410C-BD27-F65E3823D964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{E07DA6F7-1838-4D17-9FDF-823A6CF5D259}.Release|x64.Build.0 = Release|Any CPU
 		{E07DA6F7-1838-4D17-9FDF-823A6CF5D259}.Release|x86.ActiveCfg = Release|Any CPU
 		{E07DA6F7-1838-4D17-9FDF-823A6CF5D259}.Release|x86.Build.0 = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|x64.Build.0 = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Debug|x86.Build.0 = Debug|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|x64.ActiveCfg = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|x64.Build.0 = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|x86.ActiveCfg = Release|Any CPU
+		{05A41112-13AF-410C-BD27-F65E3823D964}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

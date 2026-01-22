@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Data.Common;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace Lesson04DisplayingContent;
@@ -38,13 +39,13 @@ public class DisplayingContentGame : Game
         _ship = Content.Load<Texture2D>("Beetle");
 
         //Windows
-        // _font = Content.Load<SpriteFont>("SystemArialFont");
+        _font = Content.Load<SpriteFont>("SystemArialFont");
 
         Texture2D walkingSpriteSheet = Content.Load<Texture2D>("Walking");
         int width = walkingSpriteSheet.Width;
         int height = walkingSpriteSheet.Height;
         _walkingAnimation = new SimpleAnimation(walkingSpriteSheet, width / 8, height, 8, 8);
-        //_walkingAnimation = new SimpleAnimation(walkingSpriteSheet, 81, 144, 8, 8);
+        _walkingAnimation = new SimpleAnimation(walkingSpriteSheet, 81, 144, 8, 8);
 
     }
 
