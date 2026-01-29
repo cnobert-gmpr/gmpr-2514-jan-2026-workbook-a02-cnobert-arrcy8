@@ -20,3 +20,8 @@
 /processorParam:TextureFormat=Compressed
 /build:File.spritefont
 
+#begin Tahoma.ttf
+/importer:
+/processor:
+/build:Tahoma.ttf
+
